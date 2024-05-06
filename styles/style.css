@@ -1,0 +1,66 @@
+body {
+  font: 500 16px "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+  max-width: 384px;
+  width: 90%;
+  padding: 24px;
+  border: 2px solid hsl(0, 0%, 7%);
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 18px 18px hsl(0, 0%, 7%);
+}
+.container .blog-image img {
+  border-radius: 10px;
+}
+.container .blog-content {
+  margin: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.container .blog-content .blog-category {
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  align-self: flex-start;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-weight: 800;
+}
+.container .blog-content .blog-header {
+  font-weight: 800;
+  transition: color 300ms;
+}
+.container .blog-content .blog-header:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+.container .blog-content .blog-description {
+  color: hsl(0, 0%, 50%);
+  line-height: 1.5;
+}
+.container .author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.container .author img {
+  width: 32px;
+  height: 32px;
+}
+.container .author-name {
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+  }
+}/*# sourceMappingURL=style.css.map */
