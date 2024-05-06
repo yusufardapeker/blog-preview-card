@@ -3,3 +3,5 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ### Built with
 
 -   SASS
+
+The website is responsive only 1440px and 375px screen sizes.
